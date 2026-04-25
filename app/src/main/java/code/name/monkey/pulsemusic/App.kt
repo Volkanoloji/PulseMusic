@@ -63,8 +63,6 @@ class App : Application() {
             return instance!!
         }
 
-        fun isProVersion(): Boolean {
-            return BuildConfig.DEBUG || instance?.billingManager!!.isProVersion
-        }
+        fun isProVersion(): Boolean = true
     }
 }

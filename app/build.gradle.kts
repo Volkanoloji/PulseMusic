@@ -62,8 +62,7 @@ android {
         }
         getByName("debug") {
             signingConfig = theSigningConfig
-            applicationIdSuffix = ".debug"
-            versionNameSuffix = " DEBUG"
+            // Diğer suffix satırlarını SİL veya başına // koyarak devre dışı bırak
         }
     }
 
